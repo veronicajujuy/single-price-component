@@ -1,0 +1,119 @@
+body {
+    margin: 0 auto;
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+}
+
+button {
+    width: 100%;
+    height: 20px;
+    padding: 15px 15px 30px 15px;
+    color: #fff;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px rgba(65, 71, 73, 0.413);
+}
+
+.container {
+    background-color: hsl(179, 61%, 52%);
+    margin: 100px auto;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+
+.first {
+    width: 100%;
+    background-color: #fff;
+}
+.second {
+    width: 100%;
+    background-color: hsl(179, 62%, 43%);
+    color: #fff;
+}
+
+.pad-1 {
+    padding: 20px;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+.pad-2 {
+    padding: 20px;
+    color: #fff;
+}
+.pad-3 {
+    padding: 20px;
+    color: #fff;
+}
+
+.title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: hsl(179, 62%, 43%);
+}
+
+.title-2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+   
+}
+
+.dolar {
+    font-size: 2rem;
+}
+
+.subtitle {
+    font-size: 1rem;
+    font-weight: bold;
+    color: hsl(71, 73%, 54%);
+}
+
+.paragraph {
+    font-size: 0.75rem;
+    color: hsl(218, 22%, 67%);
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+.per-month {
+    color:rgba(255, 255, 255, 0.522);
+}
+
+.last-paragraph{
+    padding-right: 20px;
+    color:rgba(255, 255, 255, 0.792);
+    line-height: 1.5rem;
+}
+@media screen and (min-width: 600px) {
+    .container {
+        background-color: hsl(179, 61%, 52%);
+        width: 680px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .first {
+        padding: 30px;
+        width: 100%;
+        background-color: #fff;
+    }
+    .second {
+        width: 300px;
+    }
+
+    .third {
+        width: 300px;
+    }
+
+    .paragraph {
+        font-size: 1rem;
+    }
+    .pad-2 {
+        padding: 20px;
+        color: #fff;
+        border-radius: 0 0 0 10px;
+    }
+}
